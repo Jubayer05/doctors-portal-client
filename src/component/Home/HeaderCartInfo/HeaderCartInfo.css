@@ -1,0 +1,22 @@
+.color-primary {
+    background-color: #1cc7c1;
+    color: #ffffff;
+}
+
+.color-dark {
+    background-color: #3a4256;
+    color: #ffffff;
+}
+
+.info-icon {
+    font-size: 3em;
+}
+
+.header-cart {
+    border-radius: 10px;
+}
+
+.text-line {
+    font-size: 12px;
+    line-height: 16px;
+}
