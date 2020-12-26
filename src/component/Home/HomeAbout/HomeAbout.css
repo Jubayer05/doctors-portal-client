@@ -1,0 +1,19 @@
+.homeAbout {
+    max-width: 1140px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.homeAbout__image img {
+    height: 450px;
+    width: 90%;
+}
+
+.homeAbout__content {
+    flex-direction: column;
+    text-align: left;
+    height: 100%;
+}

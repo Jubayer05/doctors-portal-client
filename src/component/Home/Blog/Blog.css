@@ -1,0 +1,35 @@
+.blog {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.blog-item {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.199);
+    /* transition: all 0.5s; */
+}
+
+.blog-item:hover {
+    background-image: linear-gradient(to right, #19d3af, #0fcfeb);
+    color: #ffffff;
+}
+
+.blog-item:hover img {
+    display: none;
+}
+
+.blog-item:hover p {
+    display: none;
+}
+
+.blog-arrow {
+    font-size: 20px;
+    display: none;
+}
+
+.blog-arrow:hover {
+    font-size: 40px;
+}
+
+.blog-item:hover .blog-arrow {
+    display: block;
+}

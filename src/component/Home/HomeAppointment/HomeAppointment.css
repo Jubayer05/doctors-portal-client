@@ -1,0 +1,27 @@
+.homeAppointment {
+    background-image: url(../../../images/nextchair.png);
+    height: 350px;
+    margin-top: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.homeAppointment__overlay {
+    height: 100%;
+    background-color: rgba(58, 66, 86, 0.8);
+}
+
+.homeAppointment__container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.appointment-doctor {
+    transform: translateY(-70px) translateX(20px) scale(1.4);
+}
+
+.appointment__content {
+    transform: translateX(50px);
+    color: #ffffff;
+}

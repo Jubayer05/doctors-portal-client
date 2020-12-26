@@ -1,0 +1,30 @@
+/* .appointment-form {
+    position: relative;
+} */
+
+.modal-style {
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 50px 80px;
+    border-radius: 5px;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.input-appointment {
+   
+}

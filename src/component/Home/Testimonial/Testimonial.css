@@ -1,0 +1,19 @@
+.testimonial {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.testimonial-item {
+    border: 1px solid #ccc;
+    box-shadow:0 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial-img {
+    width: 200px;
+}
+
+.testimonial-name {
+    font-size: 18px;
+    line-height: 10px;
+}

@@ -1,0 +1,14 @@
+.calendar {
+    border: none;
+}
+
+.close-btn {
+    color: #1cc7c1;
+    border: 1px solid #1cc7c1;
+    border-radius: 50%;
+}
+
+.close-btn:hover {
+    background-color: #1cc7c1;
+    color: #ffffff;
+}

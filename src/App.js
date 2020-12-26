@@ -5,13 +5,20 @@ import {
   Route
 } from "react-router-dom";
 import Home from './component/Home/Home/Home';
+import Appointment from './component/Appointment/Appointment/Appointment';
 
 function App() {
   return (
     <Router>
       <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/appointment">
+            <Appointment/>
+          </Route>
+          <Route exact path="/login">
+           
           </Route>
         </Switch>
     </Router>
